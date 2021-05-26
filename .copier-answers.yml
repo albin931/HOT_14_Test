@@ -1,0 +1,13 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+_commit: v1.1.4
+_src_path: https://github.com/albin931/oca-addons-repo-template.git
+dependency_installation_mode: PIP
+generate_requirements_txt: true
+include_wkhtmltopdf: true
+odoo_version: 14.0
+rebel_module_groups: []
+repo_description: Odoo 14 custom addons for House Of Tours
+repo_name: House Of Tours Odoo 14.0
+repo_slug: HouseofTours-14
+travis_apt_packages: []
+travis_apt_sources: []
