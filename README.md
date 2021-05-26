@@ -9,6 +9,31 @@
 
 Odoo 14 custom addons for House Of Tours
 
+## How to use?
+
+This is a template. It is based on [Copier](https://github.com/pykong/copier), go there
+to read its docs to know how it works.
+
+Quick answer to bootstrap a new repo:
+
+```bash
+python3 -m pip install --user pipx
+export PATH="${PATH}:$(python3 -c 'import site; print(site.USER_BASE)')/bin"
+# Install copier and pre-commit if missing
+pipx install copier
+pipx install pre-commit
+pipx ensurepath
+# Clone this repository
+git clone git@github.com:HOUSE-OF-TOURS/HouseofTours-14.git
+cd HouseofTours-14
+pre-commit install
+# Do your development, after
+git add .
+pre-commit run -a
+# Fix the errors then git add . and pre-commit run -a
+git commit
+```
+
 <!-- /!\ do not modify below this line -->
 
 <!-- prettier-ignore-start -->
